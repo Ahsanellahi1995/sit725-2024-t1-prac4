@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/style.css" type="" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+
+    <!-- Optional theme -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css"
+      integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+      crossorigin="anonymous"
+    />
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="bgcolor">
+      <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+   
+        </a>
+      </nav>
+      <div class="container">
+        <div class="row">
+          <div col s12>
+            <h1 id="heading" class="center-align">
+               SIT725 - Applied Software Engineering
+            </h1>
+            <center>
+              <p>
+                This demo application provides a glimpse into the functionality and user experience of a collaborative coding platformy
+              </p>
+            </center>
+          </div>
+        </div>
+        <div>
+          <center><img src="images/abc.png" /></center>
+        </div>
+        <div class="col s12 center-align">
+          <a class="waves-effect waves-light btn" onclick="modal1()"
+            >Click Here</a
+          >
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="col-md-3"></div>
+            <div class="card col-md-3 cardmargin" style="width: 20rem">
+              <img
+                class="card-img-top"
+                src="images/img1.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">First Card</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+
+            <div class="card col-md-3 cardmargin" style="width: 20rem">
+              <img
+                class="card-img-top"
+                src="images/img1.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Second Card</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+
+            <div class="card col-md-3 cardmargin" style="width: 22rem">
+              <img
+                class="card-img-top"
+                src="images/img1.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Third Card</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+
+
+            <div class="card col-md-3 cardmargin" style="width: 22rem">
+              <img
+                class="card-img-top"
+                src="images/img1.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Four Card</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-3"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- model -->
+      <div id="modal1" class="modal modal-fixed-footer">
+        <div class="row modal-content">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <input
+                  placeholder="Placeholder"
+                  id="first_name"
+                  type="text"
+                  class="validate"
+                />
+                <label for="first_name">First Name</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="last_name" type="text" class="validate" />
+                <label for="last_name">Last Name</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="password" type="password" class="validate" />
+                <label for="password">Password</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate" />
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12 center-align">
+                <a class="waves-effect waves-light btn" id="formSubmit"
+                  >submit</a
+                >
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <link rel="script" href="js/script.js" type="script" />
+    </div>
+  </body>
+</html>

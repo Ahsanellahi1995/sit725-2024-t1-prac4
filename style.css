@@ -1,0 +1,16 @@
+body {
+  background: #f28487;
+}
+.bgcolor {
+  background: #f28487;
+  width: 100%;
+}
+.cardmargin {
+  margin-right: 10px;
+  margin-top: 30px;
+
+}
+.card-img-top{
+border-radius: 38px;
+
+}
